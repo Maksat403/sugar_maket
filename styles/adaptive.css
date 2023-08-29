@@ -1,0 +1,152 @@
+@media all and (max-width: 600px) {
+  .nav__list {
+    display: none;
+    flex-direction: column;
+    width: fit-content;
+    gap: 5px;
+  }
+  .nav_bg {
+    height: 125px;
+    object-fit: contain;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .hero {
+    height: 820px;
+  }
+
+  .hero_bg {
+    height: 530px;
+    object-fit: cover;
+  }
+
+  .hero_start {
+    flex-direction: column-reverse;
+    height: 538px;
+    justify-content: end;
+  }
+
+  .hero_down {
+    bottom: 263px;
+  }
+
+  .hero_end {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .hero p {
+    width: 152%;
+  }
+
+  .hero_left {
+    color: white;
+    width: 78%;
+  }
+
+  .hero_left button {
+    margin-left: 62px;
+  }
+
+  .hero_right {
+    width: 100%;
+  }
+
+  .about {
+    height: fit-content;
+    padding: 20px 0;
+    flex-direction: column;
+  }
+
+  .about_left {
+    width: 90%;
+    display: flex;
+    align-items: center;
+  }
+
+  .about_right {
+    width: 90%;
+  }
+
+  .numbers {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .number_item {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hidden {
+    display: none !important;
+  }
+
+  .tools_end {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .tools_left {
+    width: 65%;
+  }
+
+  .tools_right {
+    width: 70%;
+  }
+  .carousel {
+    height: 295px !important;
+  }
+
+  .carousel-item {
+    width: 80% !important;
+    margin-left: 60px;
+    margin-top: 30px;
+  }
+
+  .carousel-control-prev {
+    left: -7px !important;
+  }
+
+  .cust_list {
+    flex-direction: column;
+    justify-content: space-around;
+    height: 577px;
+    padding-left: 0;
+    margin-bottom: -20px;
+  }
+
+  .objects {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+  }
+  .objects img {
+    width: 88%;
+  }
+
+  footer {
+    font-size: 12.5px;
+    width: 102%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+  }
+
+  footer p {
+    margin: 0;
+  }
+
+  footer img {
+    width: 20%;
+  }
+
+  /*  */
+}
